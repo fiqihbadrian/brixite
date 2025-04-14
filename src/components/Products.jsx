@@ -8,9 +8,8 @@ export default function Products() {
         <div className="flex flex-col md:flex-row justify-center gap-4 px-4 sm:px-8 md:px-12">
           {/* Product Cards */}
           {[
-            { name: 'BLAKE BRAVADO', image: '/product/org1.png' },
-            { name: 'SOLSTICE SILK', image: '/product/org2.png' },
-            { name: 'PHOENIX PRESTIGE', image: '/product/org3.png' },
+            { name: 'HOODIE DOPE', image: '/product/org1.png', price: '299.000' },
+            { name: 'SWEEATER DOPE', image: '/product/org2.png', price: '280.000' },
           ].map((product, index) => (
             <div key={index} className="card bg-white shadow-lg rounded-lg overflow-hidden w-72 mx-auto">
               <Image
@@ -23,7 +22,7 @@ export default function Products() {
               />
               <div className="p-4">
                 <h4 className="text-lg font-bold text-black">{product.name}</h4>
-                <p className="text-sm text-gray-600">${120 + index * 10}</p>
+                <p className="text-sm text-gray-600">Rp {product.price}</p>
               </div>
             </div>
           ))}
