@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
       <div className="relative h-64">
         <div className="select-none pointer-events-none">
           <Image 
-            src={product.image}
+            src={product.imageThumbnail}
             alt={product.name}
             fill
             className="object-cover"
