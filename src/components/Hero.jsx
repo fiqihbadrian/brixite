@@ -1,12 +1,14 @@
 'use client'
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faTshirt, faComments, faMedal } from '@fortawesome/free-solid-svg-icons';
 
 export default function Hero() {
   const router = useRouter();
 
   const handleShopNow = () => {
-    router.push('#products');
+    router.push('/products');
   };
 
   return (
@@ -42,53 +44,29 @@ export default function Hero() {
         <div className="container mx-auto flex justify-between items-center">
           {/* Left Icon */}
           <div className="flex flex-col items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="h-8 w-8 text-[#FFD700] mb-2">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 4v16m8-8H4"></path>
-            </svg>
-            <span>Feature 1</span>
+            <FontAwesomeIcon 
+              icon={faMedal} 
+              className="h-8 w-8 text-[#FFD700] mb-2" 
+            />
+            <span className="text-center">Quality Assured</span>
           </div>
 
           {/* Center Icon */}
           <div className="flex flex-col items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="h-8 w-8 text-[#FFD700] mb-2">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 4v16m8-8H4"></path>
-            </svg>
-            <span>Feature 2</span>
+            <FontAwesomeIcon 
+              icon={faTshirt} 
+              className="h-8 w-8 text-[#FFD700] mb-2" 
+            />
+            <span className="text-center">Avantgarde Style</span>
           </div>
 
           {/* Right Icon */}
           <div className="flex flex-col items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="h-8 w-8 text-[#FFD700] mb-2">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 4v16m8-8H4"></path>
-            </svg>
-            <span>Feature 3</span>
+            <FontAwesomeIcon 
+              icon={faComments} 
+              className="h-8 w-8 text-[#FFD700] mb-2" 
+            />
+            <span className="text-center">Ultimate Satisfaction</span>
           </div>
         </div>
       </div>
