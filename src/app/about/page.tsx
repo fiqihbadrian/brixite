@@ -2,6 +2,7 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Image from 'next/image'
+import { contactInfo, formConfig } from '../../config/contact'
 
 export default function AboutPage() {
   return (
@@ -120,7 +121,7 @@ export default function AboutPage() {
               </p>
               
               <form 
-                action="https://formsubmit.co/fiqihbadrian@gmail.com" 
+                action={formConfig.contact}
                 method="POST"
                 className="bg-white rounded-lg shadow-lg p-8"
               >
@@ -131,7 +132,7 @@ export default function AboutPage() {
                 <input type="hidden" name="_captcha" value="false" />
                 
                 {/* Success Page */}
-                <input type="hidden" name="_next" value="http://localhost:3000/about?success=true" />
+                <input type="hidden" name="_next" value={formConfig.successRedirect} />
                 
                 {/* Subject */}
                 <input type="hidden" name="_subject" value="New contact from Brixite website!" />

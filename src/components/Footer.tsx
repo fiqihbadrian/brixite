@@ -12,6 +12,7 @@ import {
   faPhone, 
   faMapMarkerAlt 
 } from '@fortawesome/free-solid-svg-icons';
+import { contactInfo, formConfig } from '../config/contact';
 
 export default function Footer() {
   return (
@@ -22,14 +23,13 @@ export default function Footer() {
           
           {/* About Company */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-[#FFD700]">Brixite</h3>
+            <h3 className="text-xl font-bold mb-4 text-[#FFD700]">{contactInfo.company.name}</h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
-              Premium building materials and construction solutions for modern architecture. 
-              We provide quality products that stand the test of time.
+              {contactInfo.company.description}
             </p>
             <div className="flex gap-3">
               <a 
-                href="https://facebook.com" 
+                href={contactInfo.socialMedia.facebook}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
@@ -37,7 +37,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faFacebookF} className="text-sm" />
               </a>
               <a 
-                href="https://instagram.com" 
+                href={contactInfo.socialMedia.instagram}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
@@ -45,7 +45,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faInstagram} className="text-sm" />
               </a>
               <a 
-                href="https://twitter.com" 
+                href={contactInfo.socialMedia.twitter}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
@@ -53,7 +53,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faTwitter} className="text-sm" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href={contactInfo.socialMedia.linkedin}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
@@ -61,7 +61,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faLinkedinIn} className="text-sm" />
               </a>
               <a 
-                href="https://wa.me/6281234567890" 
+                href={contactInfo.socialMedia.whatsapp}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
@@ -109,18 +109,18 @@ export default function Footer() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start gap-3 text-gray-400">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#FFD700] mt-1" />
-                <span>Jl. Construction No. 123, Jakarta, Indonesia</span>
+                <span>{contactInfo.address.full}</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <FontAwesomeIcon icon={faPhone} className="text-[#FFD700]" />
-                <a href="tel:+6281234567890" className="hover:text-[#FFD700] transition-colors">
-                  +62 812-3456-7890
+                <a href={`tel:${contactInfo.phone.link}`} className="hover:text-[#FFD700] transition-colors">
+                  {contactInfo.phone.display}
                 </a>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <FontAwesomeIcon icon={faEnvelope} className="text-[#FFD700]" />
-                <a href="mailto:info@brixite.com" className="hover:text-[#FFD700] transition-colors">
-                  info@brixite.com
+                <a href={`mailto:${contactInfo.email.general}`} className="hover:text-[#FFD700] transition-colors">
+                  {contactInfo.email.general}
                 </a>
               </li>
             </ul>
@@ -153,7 +153,7 @@ export default function Footer() {
         <div className="container mx-auto px-6 md:px-12 lg:px-20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              &copy; 2025 Brixite by Fiqih Badrian. All rights reserved.
+              &copy; 2025 {contactInfo.company.name} by Fiqih Badrian. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <Link href="/privacy" className="text-gray-400 hover:text-[#FFD700] transition-colors">
