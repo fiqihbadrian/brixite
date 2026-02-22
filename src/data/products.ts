@@ -1,3 +1,5 @@
+import { contactInfo } from '../config/contact';
+
 export interface Product {
   id: number;
   name: string;
@@ -34,7 +36,7 @@ export const products: Product[] = [
     ],
     colors: ['Black', 'white'],
     sizes: ['M', 'L'],
-    link: 'https://wa.me/6287875150524'
+    link: contactInfo.socialMedia.whatsapp
   },
   {
     id: 2,
@@ -57,7 +59,7 @@ export const products: Product[] = [
     ],
     colors: ['Black', 'white'],
     sizes: ['M', 'L'],
-    link: 'https://wa.me/6287875150524'
+    link: contactInfo.socialMedia.whatsapp
   },
 
   // Add more products as needed

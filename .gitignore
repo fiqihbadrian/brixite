@@ -5,3 +5,6 @@ node_modules
 .env.test.local
 .env.production.local
 package-lock.json
+
+# Contact configuration (contains sensitive info)
+src/config/contact.ts
