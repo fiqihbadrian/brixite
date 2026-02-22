@@ -28,14 +28,14 @@ export default function Footer() {
               {contactInfo.company.description}
             </p>
             <div className="flex gap-3">
-              <a 
+              {/* <a 
                 href={contactInfo.socialMedia.facebook}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
               >
                 <FontAwesomeIcon icon={faFacebookF} className="text-sm" />
-              </a>
+              </a> */}
               <a 
                 href={contactInfo.socialMedia.instagram}
                 target="_blank" 
@@ -52,14 +52,14 @@ export default function Footer() {
               >
                 <FontAwesomeIcon icon={faTwitter} className="text-sm" />
               </a>
-              <a 
+              {/* <a 
                 href={contactInfo.socialMedia.linkedin}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#FFD700] hover:text-black rounded-full flex items-center justify-center transition-all duration-300"
               >
                 <FontAwesomeIcon icon={faLinkedinIn} className="text-sm" />
-              </a>
+              </a> */}
               <a 
                 href={contactInfo.socialMedia.whatsapp}
                 target="_blank" 
