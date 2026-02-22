@@ -252,3 +252,13 @@ https://nextjs.org/docs/messages/module-not-found
 [00:27:00.622] Server  LOG     ✓ Compiled in 0ms
 [00:27:01.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:27:01.922] Browser WARN    Image with src "/name.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:19.748] Browser WARN    Image with src "/product/org2.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:19.748] Browser WARN    Image with src "/product/org1.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:29.088] Browser WARN    Image with src "/product/org1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:29.088] Browser WARN    Image with src "/product/org2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:38.020] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:38.320] Browser WARN    Image with src "/name.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:38.320] Browser WARN    Image with src "/product/org1.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:38.320] Browser WARN    Image with src "/product/org2.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:44.570] Browser WARN    Image with src "/product/org1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:44.570] Browser WARN    Image with src "/product/org2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

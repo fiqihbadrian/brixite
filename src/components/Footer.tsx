@@ -107,10 +107,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-[#FFD700]">Get In Touch</h3>
             <ul className="space-y-3 mb-6">
-              <li className="flex items-start gap-3 text-gray-400">
+              {/* <li className="flex items-start gap-3 text-gray-400">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#FFD700] mt-1" />
                 <span>{contactInfo.address.full}</span>
-              </li>
+              </li> */}
               <li className="flex items-center gap-3 text-gray-400">
                 <FontAwesomeIcon icon={faPhone} className="text-[#FFD700]" />
                 <a href={`tel:${contactInfo.phone.link}`} className="hover:text-[#FFD700] transition-colors">
