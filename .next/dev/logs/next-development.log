@@ -262,3 +262,4 @@ https://nextjs.org/docs/messages/module-not-found
 [00:34:38.320] Browser WARN    Image with src "/product/org2.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
 [00:34:44.570] Browser WARN    Image with src "/product/org1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [00:34:44.570] Browser WARN    Image with src "/product/org2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:43:51.278] Server  LOG     ✓ Compiled in 267ms

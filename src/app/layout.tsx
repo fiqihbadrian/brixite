@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: 'Brixite',
   description: 'Brixite Society, is all about bringing bold, stylish streetwear that speaks to your authentic vibe. We\'re here to make your everyday look stand out, with comfy fits and eye-catching designs. Join us, make a statement, and let\'s keep it cool and fresh!',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'Brixite',
     description: 'Brixite Society, is all about bringing bold, stylish streetwear that speaks to your authentic vibe. We\'re here to make your everyday look stand out, with comfy fits and eye-catching designs. Join us, make a statement, and let\'s keep it cool and fresh!',
@@ -38,8 +42,6 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
         {/* Google Tag Manager */}
         <Script id="gtm-script" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
