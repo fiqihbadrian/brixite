@@ -1,0 +1,234 @@
+[00:00:01.981] Server  LOG     ✓ Ready in 1233ms
+[00:00:04.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.924] Browser WARN    Image with src "/name.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.924] Browser WARN    Image with src "/product/org1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.924] Browser WARN    Image with src "/product/org2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:47.256] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.259] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.281] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.281] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.283] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.285] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.288] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.289] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.289] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.290] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.293] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.294] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.295] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.296] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.297] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.302] Server  ERROR   ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:47.324] Server  LOG     ✓ Compiled in 1923ms
+[00:11:47.459] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:48.265] Server  LOG     ✓ Compiled in 469ms
+[00:11:48.711] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '..components/Header'
+> 1 | import Header from '..components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Hero from '../components/Hero';
+  3 | import Products from '../components/Products';
+  4 | import Offer from '../components/Offer';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:30.210] Server  LOG     ✓ Compiled in 51ms
